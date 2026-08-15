@@ -2,15 +2,19 @@ package model.tipos;
 
 import model.Pokemon;
 
-public class Agua extends Pokemon{
+public class Agua extends Pokemon {
 
     int ataqueEspecial;
     int defensaEspecial;
     String elemento;
     String debilidad;
 
-    public Agua(int ataqueEspecial, int defensaEspecial, String elemento, String debilidad, String nombre, int numeroPokemon, int ps, int ataque, int defensa, int velocidad, String tipo, String altura, String categoria, String peso, String habilidad, String genero, String rutaImagen) {
-        super(nombre, numeroPokemon, ps, ataque, defensa, velocidad, tipo, altura, categoria, peso, habilidad, genero, rutaImagen);
+    public Agua(String nombre, int numeroPokemon, int ps, int ataque, int defensa,
+            int velocidad, String tipo, String altura, String categoria, String peso,
+            String habilidad, String genero, String rutaImagen,
+            int ataqueEspecial, int defensaEspecial, String elemento, String debilidad) {
+        super(nombre, numeroPokemon, ps, ataque, defensa, velocidad, tipo, altura,
+                categoria, peso, habilidad, genero, rutaImagen);
         this.ataqueEspecial = ataqueEspecial;
         this.defensaEspecial = defensaEspecial;
         this.elemento = elemento;
@@ -34,13 +38,13 @@ public class Agua extends Pokemon{
     }
 
     @Override
-    public String mostrarFicha() {
-        return super.mostrarFicha();
+    public String verHabilidad() {
+        return getNombre() + " tiene la habilidad especial de: " + getHabilidad();
     }
 
     @Override
-    public String verHabilidad() {
-        return getNombre() + " tiene la habilidad: " + getHabilidad();
+    public String mostrarFicha() {
+        return super.mostrarFicha() + " | Elemento: " + elemento
+                + " | Débil contra: " + debilidad;
     }
-
 }
