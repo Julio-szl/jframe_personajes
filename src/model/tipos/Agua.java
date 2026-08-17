@@ -4,10 +4,10 @@ import model.Pokemon;
 
 public class Agua extends Pokemon {
 
-    int ataqueEspecial;
-    int defensaEspecial;
-    String elemento;
-    String debilidad;
+    private int ataqueEspecial;
+    private int defensaEspecial;
+    private String elemento;
+    private String debilidad;
 
     public Agua(String nombre, int numeroPokemon, int ps, int ataque, int defensa,
             int velocidad, String tipo, String altura, String categoria, String peso,

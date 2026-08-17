@@ -4,13 +4,16 @@ import model.Pokemon;
 
 public class Psiquico extends Pokemon{
 
-    int ataqueEspecial;
-    int defensaEspecial;
-    String elemento;
-    String debilidad;
+    private int ataqueEspecial;
+    private int defensaEspecial;
+    private String elemento;
+    private String debilidad;
 
-    public Psiquico(int ataqueEspecial, int defensaEspecial, String elemento, String debilidad, String nombre, int numeroPokemon, int ps, int ataque, int defensa, int velocidad, String tipo, String altura, String categoria, String peso, String habilidad, String genero, String rutaImagen) {
-        super(nombre, numeroPokemon, ps, ataque, defensa, velocidad, tipo, altura, categoria, peso, habilidad, genero, rutaImagen);
+    public Psiquico(String nombre, int numeroPokemon, int ps, int ataque, int defensa, int velocidad, String tipo,
+            String altura, String categoria, String peso, String habilidad, String genero, String rutaImagen,
+            int ataqueEspecial, int defensaEspecial, String elemento, String debilidad) {
+        super(nombre, numeroPokemon, ps, ataque, defensa, velocidad, tipo, altura, categoria, peso, habilidad, genero,
+                rutaImagen);
         this.ataqueEspecial = ataqueEspecial;
         this.defensaEspecial = defensaEspecial;
         this.elemento = elemento;
@@ -33,9 +36,10 @@ public class Psiquico extends Pokemon{
         return debilidad;
     }
 
-    @Override
+@Override
     public String mostrarFicha() {
-        return super.mostrarFicha();
+        return super.mostrarFicha() + " | Elemento: " + elemento
+                + " | Débil contra: " + debilidad;
     }
 
     @Override

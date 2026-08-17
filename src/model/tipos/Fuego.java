@@ -4,11 +4,11 @@ import model.Pokemon;
 
 public class Fuego extends Pokemon{
 
-    int ataqueEspecial;
-    int defensaEspecial;
-    String elemento;
-    String debilidad;
-    
+    private int ataqueEspecial;
+    private int defensaEspecial;
+    private String elemento;
+    private String debilidad;
+
     public Fuego(String nombre, int numeroPokemon, int ps, int ataque, int defensa, int velocidad, String tipo,
             String altura, String categoria, String peso, String habilidad, String genero, String rutaImagen,
             int ataqueEspecial, int defensaEspecial, String elemento, String debilidad) {
@@ -43,7 +43,8 @@ public class Fuego extends Pokemon{
 
     @Override
     public String mostrarFicha() {
-        return super.mostrarFicha();
+        return super.mostrarFicha() + " | Elemento: " + elemento
+                + " | Débil contra: " + debilidad;
     }
     
 }

@@ -2,19 +2,19 @@ package model;
 
 public abstract class Pokemon {
 
-    String nombre;
-    int numeroPokemon;
-    int ps;
-    int ataque;
-    int defensa;
-    int velocidad;
-    String tipo;
-    String altura;
-    String categoria;
-    String peso;
-    String habilidad;
-    String genero;
-    String rutaImagen;
+    private String nombre;
+    private int numeroPokemon;
+    private int ps;
+    private int ataque;
+    private int defensa;
+    private int velocidad;
+    private String tipo;
+    private String altura;
+    private String categoria;
+    private String peso;
+    private String habilidad;
+    private String genero;
+    private String rutaImagen;
 
     public Pokemon(String nombre, int numeroPokemon, int ps, int ataque, int defensa, 
         int velocidad, String tipo, String altura, String categoria, String peso, String habilidad, 
