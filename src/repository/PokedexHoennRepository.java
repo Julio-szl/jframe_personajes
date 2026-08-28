@@ -27,7 +27,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Planta",
                 "Fuego,Hielo,Veneno,Volador,Bicho",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\254.jpg"));
         listaPokemon.add(new Fuego("Blaziken",
                 257,
                 80,
@@ -45,7 +45,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Fuego,Lucha",
                 "Agua,Tierra,Volador,Psiquico",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\257.jpg"));
         listaPokemon.add(new Agua("Swampert",
                 260,
                 100,
@@ -63,7 +63,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Agua,Tierra",
                 "Planta",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\260.jpg"));
         listaPokemon.add(new Normal("Mightyena",
                 262,
                 70,
@@ -81,7 +81,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Siniestro",
                 "Lucha,Bicho,Hada",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\262.jpg"));
         listaPokemon.add(new Normal("Linoone",
                 264,
                 78,
@@ -99,7 +99,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Normal",
                 "Lucha",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\264.jpg"));
         listaPokemon.add(new Bicho("Beautifly",
                 267,
                 60,
@@ -117,7 +117,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Bicho,Volador",
                 "Fuego,Electrico,Hielo,Volador,Roca",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\267.jpg"));
         listaPokemon.add(new Bicho("Dustox",
                 269,
                 60,
@@ -135,7 +135,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Bicho,Veneno",
                 "Fuego,Volador,Psiquico,Roca",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\269.jpg"));
         listaPokemon.add(new Agua("Ludicolo",
                 272,
                 80,
@@ -153,7 +153,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Agua,Planta",
                 "Veneno,Volador,Bicho",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\272.jpg"));
         listaPokemon.add(new Planta("Shiftry",
                 275,
                 90,
@@ -171,7 +171,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Planta,Siniestro",
                 "Fuego,Hielo,Lucha,Veneno,Volador,Bicho,Hada",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\275.jpg"));
         listaPokemon.add(new Normal("Swellow",
                 277,
                 60,
@@ -189,7 +189,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Normal,Volador",
                 "Electrico,Hielo,Roca",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\277.jpg"));
         listaPokemon.add(new Agua("Pelipper",
                 279,
                 60,
@@ -207,7 +207,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Agua,Volador",
                 "Electrico,Roca",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\279.jpg"));
         listaPokemon.add(new Psiquico("Gardevoir",
                 282,
                 68,
@@ -225,7 +225,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Psiquico,Hada",
                 "Veneno,Fantasma,Acero",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\282.jpg"));
         listaPokemon.add(new Bicho("Masquerain",
                 284,
                 70,
@@ -243,7 +243,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Bicho,Volador",
                 "Fuego,Electrico,Hielo,Volador,Roca",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\284.jpg"));
         listaPokemon.add(new Planta("Breloom",
                 286,
                 60,
@@ -261,7 +261,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Planta,Lucha",
                 "Fuego,Hielo,Veneno,Volador,Psiquico,Hada",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\286.jpg"));
         listaPokemon.add(new Normal("Slaking",
                 289,
                 150,
@@ -279,7 +279,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Normal",
                 "Lucha",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\289.jpg"));
         listaPokemon.add(new Bicho("Ninjask",
                 291,
                 61,
@@ -297,7 +297,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Bicho,Volador",
                 "Fuego,Electrico,Hielo,Volador,Roca",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\291.jpg"));
         listaPokemon.add(new Bicho("Shedinja",
                 292,
                 1,
@@ -315,7 +315,7 @@ public class PokedexHoennRepository {
                 "Sin genero",
                 "Bicho,Fantasma",
                 "Fuego,Volador,Roca,Fantasma,Siniestro",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\292.jpg"));
         listaPokemon.add(new Normal("Exploud",
                 295,
                 104,
@@ -333,7 +333,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Normal",
                 "Lucha",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\295.jpg"));
         listaPokemon.add(new Lucha("Hariyama",
                 297,
                 144,
@@ -351,25 +351,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Lucha",
                 "Volador,Psiquico,Hada",
-                ""));
-        listaPokemon.add(new Roca("Nosepass",
-                299,
-                30,
-                45,
-                135,
-                45,
-                90,
-                30,
-                "Roca",
-                "1,0",
-                "Brújula",
-                "97,0",
-                "Robustez,Imán",
-                "Nosepass es un Pokémon de tipo Roca originario de Hoenn. Destaca por las características propias de la categoría brújula y por su habilidad en combate.",
-                "♀/♂",
-                "Roca",
-                "Agua,Planta,Lucha,Tierra,Acero",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\297.jpg"));
         listaPokemon.add(new Normal("Delcatty",
                 301,
                 70,
@@ -387,7 +369,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Normal",
                 "Lucha",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\301.jpg"));
         listaPokemon.add(new Normal("Sableye",
                 302,
                 50,
@@ -405,25 +387,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Siniestro,Fantasma",
                 "Hada",
-                ""));
-        listaPokemon.add(new Normal("Mawile",
-                303,
-                50,
-                85,
-                85,
-                55,
-                55,
-                50,
-                "Acero/Hada",
-                "0,6",
-                "Tramposo",
-                "11,5",
-                "Corte Fuerte,Intimidación",
-                "Mawile es un Pokémon de tipo Acero/Hada originario de Hoenn. Destaca por las características propias de la categoría tramposo y por su habilidad en combate.",
-                "♀/♂",
-                "Acero,Hada",
-                "Fuego,Tierra",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\302.jpg"));
         listaPokemon.add(new Normal("Aggron",
                 306,
                 70,
@@ -441,7 +405,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Acero,Roca",
                 "Agua,Lucha,Tierra",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\306.jpg"));
         listaPokemon.add(new Lucha("Medicham",
                 308,
                 60,
@@ -459,7 +423,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Lucha,Psiquico",
                 "Volador,Fantasma,Hada",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\308.jpg"));
         listaPokemon.add(new Electrico("Manectric",
                 310,
                 70,
@@ -477,7 +441,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Electrico",
                 "Tierra",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\310.jpg"));
         listaPokemon.add(new Electrico("Plusle",
                 311,
                 60,
@@ -495,7 +459,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Electrico",
                 "Tierra",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\311.jpg"));
         listaPokemon.add(new Electrico("Minun",
                 312,
                 60,
@@ -513,25 +477,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Electrico",
                 "Tierra",
-                ""));
-        listaPokemon.add(new Bicho("Volbeat",
-                313,
-                65,
-                73,
-                75,
-                47,
-                85,
-                85,
-                "Bicho",
-                "0,7",
-                "Luciérnaga",
-                "17,7",
-                "Iluminación,Enjambre",
-                "Volbeat es un Pokémon de tipo Bicho originario de Hoenn. Destaca por las características propias de la categoría luciérnaga y por su habilidad en combate.",
-                "♂",
-                "Bicho",
-                "Fuego,Volador,Roca",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\312.jpg"));
         listaPokemon.add(new Bicho("Illumise",
                 314,
                 65,
@@ -549,7 +495,7 @@ public class PokedexHoennRepository {
                 "♀",
                 "Bicho",
                 "Fuego,Volador,Roca",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\314.jpg"));
         listaPokemon.add(new Planta("Roselia",
                 315,
                 50,
@@ -567,7 +513,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Planta,Veneno",
                 "Fuego,Hielo,Volador,Psiquico",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\315.jpg"));
         listaPokemon.add(new Veneno("Swalot",
                 317,
                 100,
@@ -585,7 +531,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Veneno",
                 "Tierra,Psiquico",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\317.jpg"));
         listaPokemon.add(new Agua("Sharpedo",
                 319,
                 70,
@@ -603,7 +549,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Agua,Siniestro",
                 "Electrico,Planta,Lucha,Bicho,Hada",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\319.jpg"));
         listaPokemon.add(new Agua("Wailord",
                 321,
                 170,
@@ -621,7 +567,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Agua",
                 "Electrico,Planta",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\321.jpg"));
         listaPokemon.add(new Fuego("Camerupt",
                 323,
                 70,
@@ -639,7 +585,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Fuego,Tierra",
                 "Agua,Tierra",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\323.jpg"));
         listaPokemon.add(new Fuego("Torkoal",
                 324,
                 70,
@@ -657,7 +603,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Fuego",
                 "Agua,Tierra,Roca",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\324.jpg"));
         listaPokemon.add(new Psiquico("Grumpig",
                 326,
                 80,
@@ -675,7 +621,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Psiquico",
                 "Bicho,Fantasma,Siniestro",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\326.jpg"));
         listaPokemon.add(new Normal("Spinda",
                 327,
                 60,
@@ -693,7 +639,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Normal",
                 "Lucha",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\327.jpg"));
         listaPokemon.add(new Tierra("Flygon",
                 330,
                 80,
@@ -711,7 +657,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Tierra,Dragon",
                 "Hielo,Dragon,Hada",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\330.jpg"));
         listaPokemon.add(new Planta("Cacturne",
                 332,
                 70,
@@ -729,7 +675,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Planta,Siniestro",
                 "Fuego,Hielo,Lucha,Veneno,Volador,Bicho,Hada",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\332.jpg"));
         listaPokemon.add(new Dragon("Altaria",
                 334,
                 75,
@@ -747,7 +693,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Dragon,Volador",
                 "Hielo,Roca,Dragon,Hada",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\334.jpg"));
         listaPokemon.add(new Normal("Zangoose",
                 335,
                 73,
@@ -765,7 +711,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Normal",
                 "Lucha",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\335.jpg"));
         listaPokemon.add(new Veneno("Seviper",
                 336,
                 73,
@@ -783,43 +729,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Veneno",
                 "Tierra,Psiquico",
-                ""));
-        listaPokemon.add(new Roca("Lunatone",
-                337,
-                90,
-                55,
-                65,
-                95,
-                85,
-                70,
-                "Roca/Psiquico",
-                "1,0",
-                "Meteorito",
-                "168,0",
-                "Levitación",
-                "Lunatone es un Pokémon de tipo Roca/Psiquico originario de Hoenn. Destaca por las características propias de la categoría meteorito y por su habilidad en combate.",
-                "Sin genero",
-                "Roca,Psiquico",
-                "Agua,Planta,Tierra,Bicho,Fantasma,Siniestro,Acero",
-                ""));
-        listaPokemon.add(new Roca("Solrock",
-                338,
-                90,
-                95,
-                85,
-                55,
-                65,
-                70,
-                "Roca/Psiquico",
-                "1,2",
-                "Meteorito",
-                "154,0",
-                "Levitación",
-                "Solrock es un Pokémon de tipo Roca/Psiquico originario de Hoenn. Destaca por las características propias de la categoría meteorito y por su habilidad en combate.",
-                "Sin genero",
-                "Roca,Psiquico",
-                "Agua,Planta,Tierra,Bicho,Fantasma,Siniestro,Acero",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\336.jpg"));
         listaPokemon.add(new Agua("Whiscash",
                 340,
                 110,
@@ -837,7 +747,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Agua,Tierra",
                 "Planta",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\340.jpg"));
         listaPokemon.add(new Agua("Crawdaunt",
                 342,
                 63,
@@ -855,7 +765,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Agua,Siniestro",
                 "Electrico,Planta,Lucha,Bicho,Hada",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\342.jpg"));
         listaPokemon.add(new Tierra("Claydol",
                 344,
                 60,
@@ -873,7 +783,7 @@ public class PokedexHoennRepository {
                 "Sin genero",
                 "Tierra,Psiquico",
                 "Agua,Planta,Hielo,Bicho,Fantasma,Siniestro",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\344.jpg"));
         listaPokemon.add(new Roca("Cradily",
                 346,
                 86,
@@ -891,7 +801,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Roca,Planta",
                 "Hielo,Lucha,Bicho,Acero",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\346.jpg"));
         listaPokemon.add(new Roca("Armaldo",
                 348,
                 75,
@@ -909,7 +819,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Roca,Bicho",
                 "Agua,Roca,Acero",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\348.jpg"));
         listaPokemon.add(new Agua("Milotic",
                 350,
                 95,
@@ -927,43 +837,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Agua",
                 "Electrico,Planta",
-                ""));
-        listaPokemon.add(new Normal("Castform",
-                351,
-                70,
-                70,
-                70,
-                70,
-                70,
-                70,
-                "Normal",
-                "0,3",
-                "Clima",
-                "0,8",
-                "Predicción",
-                "Castform es un Pokémon de tipo Normal originario de Hoenn. Destaca por las características propias de la categoría clima y por su habilidad en combate.",
-                "♀/♂",
-                "Normal",
-                "Lucha",
-                ""));
-        listaPokemon.add(new Normal("Kecleon",
-                352,
-                60,
-                90,
-                70,
-                60,
-                120,
-                40,
-                "Normal",
-                "1,0",
-                "Cambio Color",
-                "22,0",
-                "Cambio Color",
-                "Kecleon es un Pokémon de tipo Normal originario de Hoenn. Destaca por las características propias de la categoría cambio color y por su habilidad en combate.",
-                "♀/♂",
-                "Normal",
-                "Lucha",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\350.jpg"));
         listaPokemon.add(new Fantasma("Banette",
                 354,
                 64,
@@ -981,7 +855,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Fantasma",
                 "Fantasma,Siniestro",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\354.jpg"));
         listaPokemon.add(new Fantasma("Dusclops",
                 356,
                 40,
@@ -999,7 +873,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Fantasma",
                 "Fantasma,Siniestro",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\356.jpg"));
         listaPokemon.add(new Planta("Tropius",
                 357,
                 99,
@@ -1017,25 +891,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Planta,Volador",
                 "Fuego,Hielo,Veneno,Volador,Roca",
-                ""));
-        listaPokemon.add(new Psiquico("Chimecho",
-                358,
-                75,
-                50,
-                80,
-                95,
-                90,
-                65,
-                "Psiquico",
-                "0,6",
-                "Campana Viento",
-                "1,0",
-                "Levitación",
-                "Chimecho es un Pokémon de tipo Psiquico originario de Hoenn. Destaca por las características propias de la categoría campana viento y por su habilidad en combate.",
-                "♀/♂",
-                "Psiquico",
-                "Bicho,Fantasma,Siniestro",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\357.jpg"));
         listaPokemon.add(new Normal("Absol",
                 359,
                 65,
@@ -1053,7 +909,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Siniestro",
                 "Lucha,Bicho,Hada",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\359.jpg"));
         listaPokemon.add(new Hielo("Glalie",
                 362,
                 80,
@@ -1071,7 +927,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Hielo",
                 "Fuego,Lucha,Roca,Acero",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\362.jpg"));
         listaPokemon.add(new Hielo("Walrein",
                 365,
                 110,
@@ -1089,25 +945,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Hielo,Agua",
                 "Electrico,Planta,Lucha,Roca",
-                ""));
-        listaPokemon.add(new Agua("Huntail",
-                367,
-                55,
-                104,
-                105,
-                94,
-                75,
-                52,
-                "Agua",
-                "1,7",
-                "Mar Profundo",
-                "27,0",
-                "Nado Rápido",
-                "Huntail es un Pokémon de tipo Agua originario de Hoenn. Destaca por las características propias de la categoría mar profundo y por su habilidad en combate.",
-                "♀/♂",
-                "Agua",
-                "Electrico,Planta",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\365.jpg"));
         listaPokemon.add(new Agua("Gorebyss",
                 368,
                 55,
@@ -1125,43 +963,8 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Agua",
                 "Electrico,Planta",
-                ""));
-        listaPokemon.add(new Agua("Relicanth",
-                369,
-                100,
-                90,
-                130,
-                45,
-                65,
-                55,
-                "Agua/Roca",
-                "1,0",
-                "Longevidad",
-                "23,4",
-                "Nado Rápido,Cabeza Roca",
-                "Relicanth es un Pokémon de tipo Agua/Roca originario de Hoenn. Destaca por las características propias de la categoría longevidad y por su habilidad en combate.",
-                "♀/♂",
-                "Agua,Roca",
-                "Electrico,Planta,Lucha,Tierra",
-                ""));
-        listaPokemon.add(new Agua("Luvdisc",
-                370,
-                43,
-                30,
-                55,
-                40,
-                65,
-                97,
-                "Agua",
-                "0,6",
-                "Encuentro",
-                "8,7",
-                "Nado Rápido",
-                "Luvdisc es un Pokémon de tipo Agua originario de Hoenn. Destaca por las características propias de la categoría encuentro y por su habilidad en combate.",
-                "♀/♂",
-                "Agua",
-                "Electrico,Planta",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\368.jpg"));
+
         listaPokemon.add(new Dragon("Salamence",
                 373,
                 95,
@@ -1179,7 +982,7 @@ public class PokedexHoennRepository {
                 "♀/♂",
                 "Dragon,Volador",
                 "Hielo,Roca,Dragon,Hada",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\373.jpg"));
         listaPokemon.add(new Normal("Metagross",
                 376,
                 80,
@@ -1197,7 +1000,7 @@ public class PokedexHoennRepository {
                 "Sin genero",
                 "Acero,Psiquico",
                 "Fuego,Tierra,Fantasma,Siniestro",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\376.jpg"));
         listaPokemon.add(new Roca("Regirock",
                 377,
                 80,
@@ -1215,7 +1018,7 @@ public class PokedexHoennRepository {
                 "Sin genero",
                 "Roca",
                 "Agua,Planta,Lucha,Tierra,Acero",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\377.jpg"));
         listaPokemon.add(new Hielo("Regice",
                 378,
                 80,
@@ -1233,7 +1036,7 @@ public class PokedexHoennRepository {
                 "Sin genero",
                 "Hielo",
                 "Fuego,Lucha,Roca,Acero",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\378.jpg"));
         listaPokemon.add(new Normal("Registeel",
                 379,
                 80,
@@ -1251,7 +1054,7 @@ public class PokedexHoennRepository {
                 "Sin genero",
                 "Acero",
                 "Fuego,Lucha,Tierra",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\379.jpg"));
         listaPokemon.add(new Dragon("Latias",
                 380,
                 80,
@@ -1269,7 +1072,7 @@ public class PokedexHoennRepository {
                 "♀",
                 "Dragon,Psiquico",
                 "Hielo,Bicho,Fantasma,Dragon,Siniestro,Hada",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\380.jpg"));
         listaPokemon.add(new Dragon("Latios",
                 381,
                 80,
@@ -1287,7 +1090,7 @@ public class PokedexHoennRepository {
                 "♂",
                 "Dragon,Psiquico",
                 "Hielo,Bicho,Fantasma,Dragon,Siniestro,Hada",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\381.jpg"));
         listaPokemon.add(new Agua("Kyogre",
                 382,
                 100,
@@ -1305,7 +1108,7 @@ public class PokedexHoennRepository {
                 "Sin genero",
                 "Agua",
                 "Electrico,Planta",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\382.jpg"));
         listaPokemon.add(new Tierra("Groudon",
                 383,
                 100,
@@ -1323,7 +1126,7 @@ public class PokedexHoennRepository {
                 "Sin genero",
                 "Tierra",
                 "Agua,Planta,Hielo",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\383.jpg"));
         listaPokemon.add(new Dragon("Rayquaza",
                 384,
                 105,
@@ -1341,7 +1144,7 @@ public class PokedexHoennRepository {
                 "Sin genero",
                 "Dragon,Volador",
                 "Hielo,Roca,Dragon,Hada",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\384.jpg"));
         listaPokemon.add(new Normal("Jirachi",
                 385,
                 100,
@@ -1359,7 +1162,7 @@ public class PokedexHoennRepository {
                 "Sin genero",
                 "Acero,Psiquico",
                 "Fuego,Tierra,Fantasma,Siniestro",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\385.jpg"));
         listaPokemon.add(new Psiquico("Deoxys",
                 386,
                 50,
@@ -1377,7 +1180,7 @@ public class PokedexHoennRepository {
                 "Sin genero",
                 "Psiquico",
                 "Bicho,Fantasma,Siniestro",
-                ""));
+                "C:\\Users\\octub\\Desktop\\POKEDEX\\HOENN\\386.jpg"));
 
         return listaPokemon;
     }
