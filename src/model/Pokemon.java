@@ -95,6 +95,12 @@ public abstract class Pokemon {
         return rutaImagen;
     }
 
+    public abstract int getAtaqueEspecial();
+
+    public abstract int getDefensaEspecial();
+
+    public abstract String getElemento();
+
 
     public abstract String verHabilidad();
 
