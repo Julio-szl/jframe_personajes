@@ -10,8 +10,8 @@ public class Volador extends Pokemon {
     private String debilidad;
 
     public Volador(String nombre, int numeroPokemon, int ps, int ataque, int defensa, int velocidad, String tipo,
-            String altura, String categoria, String peso, String habilidad, String genero, String rutaImagen,
-            int ataqueEspecial, int defensaEspecial, String elemento, String debilidad) {
+            String altura, String categoria, String peso, String habilidad, String genero,
+            int ataqueEspecial, int defensaEspecial, String elemento, String debilidad, String rutaImagen) {
         super(nombre, numeroPokemon, ps, ataque, defensa, velocidad, tipo, altura, categoria, peso, habilidad, genero,
                 rutaImagen);
         this.ataqueEspecial = ataqueEspecial;
