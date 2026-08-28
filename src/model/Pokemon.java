@@ -7,8 +7,6 @@ public abstract class Pokemon {
     private int ps;
     private int ataque;
     private int defensa;
-    private int ataqueEspecial;
-    private int defensaEspecial;
     private int velocidad;
     private String tipo;
     private String altura;
@@ -20,7 +18,7 @@ public abstract class Pokemon {
     private String genero;
     private String rutaImagen;
 
-    public Pokemon(String nombre, int numeroPokemon, int ps, int ataque, int defensa, int ataqueEspecial, int defensaEspecial,
+    public Pokemon(String nombre, int numeroPokemon, int ps, int ataque, int defensa,
         int velocidad, String tipo, String altura, String debilidades, String descripcion, String categoria, String peso, String habilidad,
         String genero, String rutaImagen) {
         this.nombre = nombre;
@@ -28,8 +26,6 @@ public abstract class Pokemon {
         this.ps = ps;
         this.ataque = ataque;
         this.defensa = defensa;
-        this.ataqueEspecial = ataqueEspecial;
-        this.defensaEspecial = defensaEspecial;
         this.velocidad = velocidad;
         this.tipo = tipo;
         this.altura = altura;
@@ -62,9 +58,6 @@ public abstract class Pokemon {
         return defensa;
     }
 
-    public int getAtaqueEspecial(){return ataqueEspecial;}
-
-    public int getDefensaEspecial(){return defensaEspecial;}
 
     public int getVelocidad() {
         return velocidad;
@@ -101,7 +94,8 @@ public abstract class Pokemon {
     public String getRutaImagen() {
         return rutaImagen;
     }
-    
+
+
     public abstract String verHabilidad();
 
     public String mostrarFicha(){

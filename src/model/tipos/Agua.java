@@ -7,16 +7,19 @@ public class Agua extends Pokemon {
     private int ataqueEspecial;
     private int defensaEspecial;
     private String elemento;
-    private String debilidad;
 
-    public Agua(String nombre, int numeroPokemon, int ps, int ataque, int defensa, int ataqueEspecial, int defensaEspecial, int velocidad, String tipo,
-                String altura, String categoria, String peso, String habilidad,String descripcion, String genero,
-                String elemento, String debilidad, String rutaImagen) {
-        super(nombre, numeroPokemon, ps, ataque, defensa,ataqueEspecial, defensaEspecial, velocidad,debilidad, descripcion, tipo, altura, categoria, peso, habilidad, genero, rutaImagen);
+    public Agua(String nombre, int numeroPokemon, int ps, int ataque,
+                int defensa, int ataqueEspecial, int defensaEspecial,
+                int velocidad, String tipo, String altura,
+                String debilidades, String descripcion, String categoria,
+                String peso, String habilidad, String genero,
+                String rutaImagen, String elemento) {
+
+        super(nombre, numeroPokemon, ps, ataque, defensa, velocidad, tipo, altura, debilidades, descripcion, categoria, peso, habilidad, genero, rutaImagen);
+
         this.ataqueEspecial = ataqueEspecial;
         this.defensaEspecial = defensaEspecial;
         this.elemento = elemento;
-        this.debilidad = debilidad;
     }
 
     public int getAtaqueEspecial() {
@@ -31,10 +34,6 @@ public class Agua extends Pokemon {
         return elemento;
     }
 
-    public String getDebilidad() {
-        return debilidad;
-    }
-
     @Override
     public String verHabilidad() {
         return getNombre() + " tiene la habilidad especial de: " + getHabilidad();
@@ -42,7 +41,8 @@ public class Agua extends Pokemon {
 
     @Override
     public String mostrarFicha() {
-        return super.mostrarFicha() + " | Elemento: " + elemento
-                + " | Débil contra: " + debilidad;
+        return super.mostrarFicha()
+                + " | Elemento: " + getElemento()
+                + " | Débil contra: " + getDebilidades();
     }
 }
