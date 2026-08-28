@@ -1,4 +1,5 @@
 import model.Pokemon;
+import repository.PokedexHoennRepository;
 import repository.PokedexJohtoRepository;
 import repository.PokedexRepository;
 import view.VentanaPrincipal;
@@ -16,6 +17,7 @@ public class App {
             List<Pokemon> listaPokemon = new ArrayList<>();
             listaPokemon.addAll(PokedexRepository.obtenerListaPokemon());
             listaPokemon.addAll(PokedexJohtoRepository.obtenerListaPokemon());
+            listaPokemon.addAll(PokedexHoennRepository.obtenerListaPokemon());
 
             ventana.cargarPokemon(listaPokemon);
             ventana.setVisible(true);
