@@ -12,8 +12,7 @@ public class Psiquico extends Pokemon{
     public Psiquico(String nombre, int numeroPokemon, int ps, int ataque, int defensa, int ataqueEspecial, int defensaEspecial, int velocidad, String tipo,
                     String altura, String categoria, String peso, String habilidad,String descripcion, String genero,
                     String elemento, String debilidad, String rutaImagen) {
-        super(nombre, numeroPokemon, ps, ataque, defensa, velocidad, tipo, altura, categoria, peso, habilidad, genero,
-                rutaImagen);
+        super(nombre, numeroPokemon, ps, ataque, defensa,ataqueEspecial, defensaEspecial, velocidad,debilidad, descripcion, tipo, altura, categoria, peso, habilidad, genero, rutaImagen);
         this.ataqueEspecial = ataqueEspecial;
         this.defensaEspecial = defensaEspecial;
         this.elemento = elemento;

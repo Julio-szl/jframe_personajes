@@ -7,26 +7,34 @@ public abstract class Pokemon {
     private int ps;
     private int ataque;
     private int defensa;
+    private int ataqueEspecial;
+    private int defensaEspecial;
     private int velocidad;
     private String tipo;
     private String altura;
+    private String debilidades;
+    private String descripcion;
     private String categoria;
     private String peso;
     private String habilidad;
     private String genero;
     private String rutaImagen;
 
-    public Pokemon(String nombre, int numeroPokemon, int ps, int ataque, int defensa, 
-        int velocidad, String tipo, String altura, String categoria, String peso, String habilidad, 
+    public Pokemon(String nombre, int numeroPokemon, int ps, int ataque, int defensa, int ataqueEspecial, int defensaEspecial,
+        int velocidad, String tipo, String altura, String debilidades, String descripcion, String categoria, String peso, String habilidad,
         String genero, String rutaImagen) {
         this.nombre = nombre;
         this.numeroPokemon = numeroPokemon;
         this.ps = ps;
         this.ataque = ataque;
         this.defensa = defensa;
+        this.ataqueEspecial = ataqueEspecial;
+        this.defensaEspecial = defensaEspecial;
         this.velocidad = velocidad;
         this.tipo = tipo;
         this.altura = altura;
+        this.debilidades = debilidades;
+        this.descripcion = descripcion;
         this.categoria = categoria;
         this.peso = peso;
         this.habilidad = habilidad;
@@ -54,6 +62,10 @@ public abstract class Pokemon {
         return defensa;
     }
 
+    public int getAtaqueEspecial(){return ataqueEspecial;}
+
+    public int getDefensaEspecial(){return defensaEspecial;}
+
     public int getVelocidad() {
         return velocidad;
     }
@@ -61,6 +73,10 @@ public abstract class Pokemon {
     public String getTipo() {
         return tipo;
     }
+
+    public String getDebilidades(){return  debilidades;}
+
+    public String getDescripcion(){return  descripcion;}
 
     public String getAltura() {
         return altura;
