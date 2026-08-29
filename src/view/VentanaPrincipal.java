@@ -20,6 +20,7 @@ public class VentanaPrincipal extends JFrame {
 
     private JPanel PanelGrid;
     private JLabel lblTipoSeleccionado;
+    private JScrollPane scrollPokemon;
     private PanelDetallesPokemon panelDetalle;
 
     private List<Pokemon> listaCompleta;
@@ -80,7 +81,7 @@ public class VentanaPrincipal extends JFrame {
 
         pantallaTipos.add(scrollTipos, BorderLayout.CENTER);
 
-        //Pantalla de los Pokemones
+        //Pantalla de los Pokemons
         JPanel pantallaGrid = new JPanel(new BorderLayout());
         pantallaGrid.setBackground(Color.WHITE);
 
@@ -115,7 +116,7 @@ public class VentanaPrincipal extends JFrame {
         PanelGrid.setBackground(Color.WHITE);
         PanelGrid.setBorder(new EmptyBorder(20, 25, 30, 25));
 
-        JScrollPane scrollPokemon = new JScrollPane(PanelGrid);
+        scrollPokemon = new JScrollPane(PanelGrid);
         scrollPokemon.setBorder(null);
 
         scrollPokemon.getVerticalScrollBar().setUnitIncrement(16);
@@ -268,7 +269,13 @@ public class VentanaPrincipal extends JFrame {
 
         renderizarGrid(filtrados);
 
+        SwingUtilities.invokeLater(() -> {
+            scrollPokemon.getVerticalScrollBar().setValue(0);
+        });
+
         cardLayout.show(PanelContenedor, "GRID");
+
+
     }
 
     private void renderizarGrid(
