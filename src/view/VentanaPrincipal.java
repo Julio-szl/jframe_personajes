@@ -80,7 +80,7 @@ public class VentanaPrincipal extends JFrame {
 
         pantallaTipos.add(scrollTipos, BorderLayout.CENTER);
 
-        //Pantalla de los Pokemons
+        //Pantalla de los Pokemones
         JPanel pantallaGrid = new JPanel(new BorderLayout());
         pantallaGrid.setBackground(Color.WHITE);
 
