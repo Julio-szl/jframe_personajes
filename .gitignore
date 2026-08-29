@@ -1,0 +1,17 @@
+# --- Compilados de Java (NUNCA se suben al repo) ---
+bin/
+out/
+build/
+*.class
+
+# --- Archivos de configuración local del IDE ---
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db

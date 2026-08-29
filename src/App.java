@@ -1,8 +1,5 @@
 import model.Pokemon;
-import repository.PokedexHoennRepository;
-import repository.PokedexJohtoRepository;
-import repository.PokedexRepository;
-import repository.PokedexSinnohRepository;
+import repository.*;
 import view.VentanaPrincipal;
 
 import javax.swing.SwingUtilities;
@@ -20,6 +17,7 @@ public class App {
             listaPokemon.addAll(PokedexJohtoRepository.obtenerListaPokemon());
             listaPokemon.addAll(PokedexHoennRepository.obtenerListaPokemon());
             listaPokemon.addAll(PokedexSinnohRepository.obtenerListaPokemon());
+            listaPokemon.addAll(PokedexTeseliaRepository.obtenerListaPokemon());
 
 
             ventana.cargarPokemon(listaPokemon);
