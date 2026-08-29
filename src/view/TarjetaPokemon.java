@@ -129,21 +129,24 @@ public class TarjetaPokemon extends JPanel {
 
         //determinamos colores para cada tipo de Pokemon
         switch (tipo.toLowerCase()){
-            case "planta": badge.setBackground(new Color(120,200,80)); break;
-            case "agua": badge.setBackground(new Color(104,144,240));break;
-            case "bicho": badge.setBackground(new Color(168,184,32));break;
-            case "dragon": badge.setBackground(new Color(255, 42, 42));break;
-            case "electrico": badge.setBackground(new Color(194, 241, 244));break;
-            case "fantasma": badge.setBackground(new Color(255, 255, 255));break;
-            case "fuego": badge.setBackground(new Color(240, 128, 48));break;
+            case "planta": badge.setBackground(new Color(10, 74, 0)); break;
+            case "agua": badge.setBackground(new Color(0, 165, 220));break;
+            case "bicho": badge.setBackground(new Color(96, 191, 15));break;
+            case "dragon": badge.setBackground(new Color(52, 0, 255));break;
+            case "electrico": badge.setBackground(new Color(255, 246, 0));break;
+            case "fantasma": badge.setBackground(new Color(46, 55, 145));break;
+            case "fuego": badge.setBackground(new Color(255, 0, 0));break;
             case "hielo": badge.setBackground(new Color(106, 232, 239));break;
-            case "lucha": badge.setBackground(new Color(138, 42, 37));break;
-            case "normal": badge.setBackground(new Color(168, 168, 120));break;
+            case "lucha": badge.setBackground(new Color(143, 51, 13));break;
+            case "normal": badge.setBackground(new Color(112, 112, 102));break;
             case "psiquico": badge.setBackground(new Color(131, 81, 175));break;
             case "roca": badge.setBackground(new Color(74, 47, 7));break;
             case "tierra": badge.setBackground(new Color(46, 21, 20));break;
             case "veneno": badge.setBackground(new Color(160, 64, 160));break;
-            case "volador": badge.setBackground(new Color(168, 144, 240));break;
+            case "volador": badge.setBackground(new Color(96, 221, 169));break;
+            case "acero": badge.setBackground(new Color(37, 69, 69));break;
+            case "hada": badge.setBackground(new Color(177, 61, 198));break;
+            case "siniestro": badge.setBackground(new Color(40, 38, 41));break;
         }
         return badge;
     }

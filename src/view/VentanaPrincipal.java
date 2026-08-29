@@ -194,51 +194,24 @@ public class VentanaPrincipal extends JFrame {
 
 
         switch (tipo.toLowerCase()) {
-            case "planta":
-                boton.setBackground(new Color(120, 200, 80));
-                break;
-            case "agua":
-                boton.setBackground(new Color(104, 144, 240));
-                break;
-            case "bicho":
-                boton.setBackground(new Color(168, 184, 32));
-                break;
-            case "dragon":
-                boton.setBackground(new Color(255, 42, 42));
-                break;
-            case "electrico":
-                boton.setBackground(new Color(194, 241, 244));
-                break;
-            case "fantasma":
-                boton.setBackground(new Color(255, 255, 255));
-                break;
-            case "fuego":
-                boton.setBackground(new Color(240, 128, 48));
-                break;
-            case "hielo":
-                boton.setBackground(new Color(106, 232, 239));
-                break;
-            case "lucha":
-                boton.setBackground(new Color(138, 42, 37));
-                break;
-            case "normal":
-                boton.setBackground(new Color(168, 168, 120));
-                break;
-            case "psiquico":
-                boton.setBackground(new Color(131, 81, 175));
-                break;
-            case "roca":
-                boton.setBackground(new Color(74, 47, 7));
-                break;
-            case "tierra":
-                boton.setBackground(new Color(46, 21, 20));
-                break;
-            case "veneno":
-                boton.setBackground(new Color(160, 64, 160));
-                break;
-            case "volador":
-                boton.setBackground(new Color(168, 144, 240));
-                break;
+            case "planta": boton.setBackground(new Color(10, 74, 0)); break;
+            case "agua": boton.setBackground(new Color(0, 165, 220));break;
+            case "bicho": boton.setBackground(new Color(96, 191, 15));break;
+            case "dragon": boton.setBackground(new Color(52, 0, 255));break;
+            case "electrico": boton.setBackground(new Color(255, 246, 0));break;
+            case "fantasma": boton.setBackground(new Color(46, 55, 145));break;
+            case "fuego": boton.setBackground(new Color(255, 0, 0));break;
+            case "hielo": boton.setBackground(new Color(106, 232, 239));break;
+            case "lucha": boton.setBackground(new Color(143, 51, 13));break;
+            case "normal": boton.setBackground(new Color(112, 112, 102));break;
+            case "psiquico": boton.setBackground(new Color(131, 81, 175));break;
+            case "roca": boton.setBackground(new Color(74, 47, 7));break;
+            case "tierra": boton.setBackground(new Color(46, 21, 20));break;
+            case "veneno": boton.setBackground(new Color(160, 64, 160));break;
+            case "volador": boton.setBackground(new Color(96, 221, 169));break;
+            case "acero": boton.setBackground(new Color(37, 69, 69));break;
+            case "hada": boton.setBackground(new Color(177, 61, 198));break;
+            case "siniestro": boton.setBackground(new Color(40, 38, 41));break;
         }
         return boton;
     }
