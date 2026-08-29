@@ -254,8 +254,9 @@ public class VentanaPrincipal extends JFrame {
             }
 
             String[] tiposPokemon = p.getTipo().split("/");
+
             for (String tipo : tiposPokemon){
-                if (tipo.trim().equalsFoldCase(tipoSeleccionado)){
+                if (tipo.trim().equalsIgnoreCase(tipoSeleccionado)){
                     filtrados.add(p);
                     break;
                 }
